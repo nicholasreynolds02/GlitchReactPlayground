@@ -1,11 +1,11 @@
 const React = require('react');
-const Character = require('./Character')
+const Character = require('./pages/Character')
 
 /* the main page for the index route of this app */
 const MainPage = function() {
   return (
     <div>
-      Hello
+      Hello There
       <Character />
     </div>
   );
