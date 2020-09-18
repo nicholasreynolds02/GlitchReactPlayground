@@ -3,5 +3,6 @@ const ReactDOM = require('react-dom');
 
 /* Import Components */
 const HelloWorld = require('./components/HelloWorld');
+const MainPage = require('./components/MainPage');
 
-ReactDOM.render(<HelloWorld/>, document.getElementById('main'));
+ReactDOM.render(<MainPage />, document.getElementById('main'));
